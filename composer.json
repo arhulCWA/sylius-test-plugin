@@ -2,7 +2,16 @@
     "name": "cwa/sylius-test-plugin",
     "description": "A test plugin for Creatis Web Art",
     "type": "sylius-plugin",
+    "version": "0.1",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Axel RHUL",
+            "email": "a.rhul@CreatisWebArt.com",
+            "homepage": "https://creatiswebart.com/",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Cwa\\SyliusTestPlugin\\": "src/",

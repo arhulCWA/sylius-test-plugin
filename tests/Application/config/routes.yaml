@@ -1,0 +1,9 @@
+cwa_sylius_test_shop:
+    resource: "@CwaSyliusTestPlugin/config/shop_routing.yml"
+    prefix: /{_locale}
+    requirements:
+        _locale: ^[a-z]{2}(?:_[A-Z]{2})?$
+
+cwa_sylius_test_admin:
+    resource: "@CwaSyliusTestPlugin/config/admin_routing.yml"
+    prefix: /admin

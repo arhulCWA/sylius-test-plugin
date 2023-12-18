@@ -1,4 +1,0 @@
-services:
-    Cwa\SyliusTestPlugin\Controller\testController:
-        autowire: true
-        autoconfigure: true

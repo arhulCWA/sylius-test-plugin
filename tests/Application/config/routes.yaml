@@ -1,2 +1,2 @@
 cwa_test:
-    resource: "@CwaSyliusTestPlugin/config/routing.yaml"
+    resource: "@CwaSyliusTestPlugin/src/Resources/config/routing.yaml"
